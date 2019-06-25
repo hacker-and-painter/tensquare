@@ -1,0 +1,13 @@
+server: 
+  port: 9003
+spring:
+  application:
+    name: ghang-qa #指定服务名
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:33070/tensquare_qa?characterEncoding=UTF-8
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    show-sql: true

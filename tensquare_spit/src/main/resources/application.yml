@@ -1,0 +1,13 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: tensquare-spit  # 服务名称
+  data:
+    mongodb:
+      host: localhost
+      database: spitdb
+swagger:
+  enable: true  # 是否开启swagger
+redis:
+  host: localhost
